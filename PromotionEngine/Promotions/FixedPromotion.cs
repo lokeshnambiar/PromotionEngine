@@ -10,7 +10,30 @@ namespace PromotionEngine.Promotions
     {
         public bool ApplyPromotion(Cart cart)
         {
-            throw new NotImplementedException();
+            //Incomplete
+            //List<ProductItem> items = cart.GetItems();
+            //var itemWithSkuC = items.Where(i=>i.Sku.Equals("C"));
+            //var itemWithSkuD = items.Where(i=>i.Sku.Equals("D"));
+            //int maxCount =0;
+            //if(itemWithSkuC.Count<ProductItem>() > itemWithSkuD.Count<ProductItem>()){
+            //    maxCount = itemWithSkuD.Count<ProductItem>();
+            //}else{
+            //    maxCount = itemWithSkuC.Count<ProductItem>();
+            //}
+            //for(int i=0; i<maxCount;i++){
+            //    ValuePackItem valueItem = new ValuePackItem();
+            //    ProductItem item1 = new ProductItem();
+            //    item.Sku = "C";
+            //    ProductItem item2 = new ProductItem();
+            //    item.Sku = "D";
+            //    Price price = new Price();
+            //    price.ListPrice = 30;
+            //    price.DiscountedPrice = 30;
+            //    valueItem.DiscountedPrice = price;
+            
+            //}
+
+            return true;
         }
     }
 }

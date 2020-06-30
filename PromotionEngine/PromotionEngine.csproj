@@ -41,10 +41,13 @@
   <ItemGroup>
     <Compile Include="Cart.cs" />
     <Compile Include="Checkout.cs" />
+    <Compile Include="Price.cs" />
+    <Compile Include="ProductItem.cs" />
     <Compile Include="Promotions\FixedPromotion.cs" />
     <Compile Include="Promotions\IPromotion.cs" />
     <Compile Include="Promotions\ValuePromotion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValuePackItem.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,25 +8,42 @@ namespace PromotionEngine
 {
     public class Cart
     {
-        private List<string> skus;
+        private List<ProductItem> products;
+        private List<ValuePackItem> valueItems;
 
         public Cart()
         {
-            skus = new List<string>();
+            products = new List<ProductItem>();
+            valueItems = new List<ValuePackItem>();
         }
-        public void AddItem(string sku)
+        public void AddItem(ProductItem item)
         {
-            skus.Add(sku);
-        }
-
-        public void RemoveItem(string sku)
-        {
-            skus.Remove(sku);
+            products.Add(item);
         }
 
-        public List<string> GetItem(string sku)
+        public void AddValueItem(ValuePackItem valueItem)
         {
-            return skus;
+            valueItems.Add(valueItem);
+        }
+
+        public void RemoveItem(ProductItem item)
+        {
+            products.Remove(item);
+        }
+
+        public void RemoveValueItem(ValuePackItem item)
+        {
+            valueItems.Remove(item);
+        }
+
+        public List<ProductItem> GetItems()
+        {
+            return products;
+        }
+
+        public List<ValuePackItem> GetValueItems()
+        {
+            return valueItems;
         }
     }
 }

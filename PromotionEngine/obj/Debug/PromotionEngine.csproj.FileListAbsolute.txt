@@ -3,3 +3,8 @@ C:\Maersk\src\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.dll
 C:\Maersk\src\PromotionEngine\PromotionEngine\bin\Debug\PromotionEngine.pdb
 C:\Maersk\src\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.dll
 C:\Maersk\src\PromotionEngine\PromotionEngine\obj\Debug\PromotionEngine.pdb
+C:\Maersk\src\PromotionEngine\obj\Debug\PromotionEngine.csprojResolveAssemblyReference.cache
+C:\Maersk\src\PromotionEngine\obj\Debug\PromotionEngine.dll
+C:\Maersk\src\PromotionEngine\obj\Debug\PromotionEngine.pdb
+C:\Maersk\src\PromotionEngine\bin\Debug\PromotionEngine.dll
+C:\Maersk\src\PromotionEngine\bin\Debug\PromotionEngine.pdb
